@@ -211,6 +211,18 @@ img {
 .feature-item {
   width: calc((100% - 72px) / 4);
 }
+
+.feature-icon-container {
+  padding: 24px 100px;
+  text-align: center;
+  width: 264px;
+  height: 112px;
+
+  background-color: #f4f4fd;
+  border-radius: 4px;
+}
+.feature-icon {
+}
 .section-projects {
   padding-top: 0;
 }
@@ -257,6 +269,76 @@ img {
 .text {
   color: var(--primary-text-color);
 }
+.card-description-text {
+  margin-bottom: 8px;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 232px;
+  height: 40px;
+}
+
+.customers {
+}
+
+.list-customers {
+  display: flex;
+  justify-content: center;
+  gap: 24;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.social-link:focus,
+.social-link:hover {
+  background: #404bbf;
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
+.item-customer {
+}
+
+.link-customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+
+  color: #8e8f99;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
+.link-customer:hover,
+.link-customer:focus {
+  color: #404bbf;
+  border: 1px solid #404bbf;
+}
+
+.customer-icon {
+  /* display: block; */
+  fill: currentColor;
+}
 
 .footer {
   padding: 100px 0;
@@ -265,6 +347,11 @@ img {
 }
 
 .footer-wrapper {
+  display: flex;
+}
+
+.footer-info {
+  margin-right: 120px;
 }
 .logo-footer {
   margin-right: 0;
@@ -277,11 +364,31 @@ img {
 .footer-text {
   max-width: 264px;
 }
-
 .footer .logo {
   margin-bottom: 16px;
 }
 
+.footer-text-icon {
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  color: #ffffff;
+  background: #4d5ae5;
+  border-radius: 50%;
+}
+.footer-social-link:focus,
+.footer-social-link:hover {
+  background: #31d0aa;
+}
 .work {
   padding-top: 96px;
   padding-bottom: 120px;
