@@ -8,6 +8,7 @@
   --color-cloud: #f4f4fd;
   --bg-btn-portfolio: #f4f4fd;
   --bg-white: #ffffff;
+  --text-white: #ffffff;
 }
 
 /*------------------------------------------ */
@@ -283,8 +284,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 16px;
+
   padding: 0px;
-  gap: 24px;
 
   width: 232px;
   height: 40px;
@@ -367,6 +369,7 @@ img {
 }
 
 .footer-info {
+  margin-right: 120px;
 }
 .logo-footer {
   margin-right: 0;
@@ -386,6 +389,7 @@ img {
 .footer-text-icon {
   margin-bottom: 16px;
   font-weight: 500;
+  color: var(--text-white);
 }
 
 .footer-social-link {
