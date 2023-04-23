@@ -161,7 +161,6 @@ img {
 
 .hero-title {
   color: var(--bg-white);
-  background-color: var(--secondary-bg-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -298,9 +297,6 @@ img {
   gap: 24px;
 
   padding: 0px;
-
-  width: 232px;
-  height: 40px;
 }
 
 .customers {
@@ -380,7 +376,6 @@ img {
 }
 
 .footer-info {
-  margin-right: 120px;
 }
 .logo-footer {
   margin-right: 0;
