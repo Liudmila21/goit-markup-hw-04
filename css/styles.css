@@ -372,10 +372,10 @@ img {
 .footer-wrapper {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-info {
+  margin-right: 120px;
 }
 .logo-footer {
   margin-right: 0;
