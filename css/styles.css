@@ -145,6 +145,7 @@ img {
   text-align: center;
 
   padding: 188px 0 188px 0;
+  margin: auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -402,11 +403,15 @@ img {
   color: var(--text-white);
 }
 
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
 .footer-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 
   width: 40px;
   height: 40px;
